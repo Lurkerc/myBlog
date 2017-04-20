@@ -1,6 +1,5 @@
 <template>
   <section class="container">
-    <img src="../assets/img/logo.png" alt="Nuxt.js Logo" />
     <h1 class="title">
       {{ error.statusCode }}
     </h1>
@@ -13,9 +12,9 @@
   </section>
 </template>
 <script>
-export default {
-  props: ['error']
-}
+  export default {
+    props: ['error']
+  }
 </script>
 
 <style scoped>
