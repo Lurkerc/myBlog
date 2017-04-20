@@ -123,7 +123,7 @@
 <style lang="less">
   @import "~assets/less/public/var";
   .mouseBox{
-    width: 280px;background-color: #fff;position: fixed;box-shadow:1px 2px 4px 0px #000;
+    width: 280px;background-color: #fff;position: fixed;box-shadow:1px 2px 4px 0px #000; z-index: 2;
     .mouseItem{padding: 0 10px;display: flex;color:#ccc;margin: 4px 0; line-height: 30px;
       &.line{border-bottom: 1px solid #ebebeb;}
       &:not(.disabled){

@@ -8,6 +8,8 @@
     <mouse></mouse>
     <!-- 桌面菜单 -->
     <project></project>
+    <!-- 辅助线 -->
+    <!--<guide></guide>-->
     <!-- 动态背景 -->
     <wallpaper></wallpaper>
   </div>
@@ -17,13 +19,15 @@
   import wallpaper from '~components/desktop/wallpaper'
   import mouse from '~components/desktop/mouse'
   import project from '~components/desktop/project'
+  import guide from '~components/desktop/guide'
   
   export default {
     layout: 'desktop',
     components: {
       wallpaper,
       mouse,
-      project
+      project,
+      guide
     }
   }
 </script>
